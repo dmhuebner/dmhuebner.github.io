@@ -43,7 +43,7 @@
   background-size: $feature-image-size;
   border-bottom: 1px solid $border-color;
   li {
-    width: 32%;
+    width: 31%;
     margin-right:0.5%;
     margin-left:0.5%;
     margin-bottom: 0;
@@ -66,4 +66,45 @@
 .pagination {
   padding: $padding-small $padding-large 0 $padding-large;
   text-align: center;
+}
+
+/*=========================
+CUSTOM - Form inputs
+==========================*/
+
+.feature-image .post-content form input[type="text"],.feature-image .post-content form input[type="email"] {
+    width: 100%;
+    display: block;
+    padding: 0.5em;
+    margin: 0 0 1em;
+    border-radius: 6px;
+    border: 1px solid #cfcfcf;
+    box-shadow: none
+}
+
+.feature-image .post-content form input[type="submit"] {
+    border-radius: 0.3em;
+    border: 1px solid $link-color;
+    color: $link-color;
+    background-color: #fff;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0.5em 0.75em
+}
+
+.feature-image .post-content form input[type="submit"]:hover {
+    background: $link-color;
+    border: 1px solid $link-color;
+    color: #fff;
+    text-decoration: none
+}
+
+.feature-image .post-content form textarea {
+    border-radius: 6px;
+    padding: 0.5em;
+    margin: 0 0 1em;
+    display: block;
+    width: 100%;
+    border: 1px solid #cfcfcf;
+    box-shadow: none
 }

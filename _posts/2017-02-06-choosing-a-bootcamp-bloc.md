@@ -1,0 +1,15 @@
+---
+layout: post
+title: Choosing a Bootcamp - Bloc
+---
+I knew I wanted to enroll myself in an intensive full stack web developer bootcamp. I wanted to drastically accellerate my learning and I was prepared to put in the time. It was only a matter of finding the right program that would fit all of my specific needs. I knew I wasn't going to be able to quit my job outright and spend 8+ hours a day working on the curriculum. That was not financially feasible for me. I felt that a remote program was best for my particular schedule as I travel often and I knew that I would need to be able to work on the curriculum remotely. Another criterion that was very important to me was having some kind of dedicated mentor or tutor that could help and guide me through the coursework.
+
+I had read that a common gripe many development teams and hiring managers have with new coding bootcamp graduates is that they don't have a sturdy foundation in some of the fundamental concepts of Computer Science, particularly things like data architecture and complex algorthms. These concepts are often needed to become a well rounded, successful developer. I read that a lot of programs teach the student how to code but don't necessarily focus as intently on important programming concepts that are usually covered in more robust four year curriculums. I wanted to be sure to avoid that pitfull by finding a program that was aware of this and integrated those key concepts into the syllabus.
+
+While researching various bootcamp programs, it became very clear to me that the program I choose must be project driven. That is, I wanted the curriculum to be focused around building real-world, practical projects that could be showcased in my portfolio. This would allow me to familiarize myself with web development work flow and practice using tools like version control on actual projects. 
+
+> Bloc's *Part-Time Full Stack Web Developer* program fit the bill. 
+
+Bloc's part-time, 20 hour a week, 6 month long schedule allowed me to maintain my job with reduced hours while still being able to commit a significant amount of time a day to my web development education. Bloc's robust, remote learning platform would allow me to work on the coursework from anywhere rather than needing to be in a physical classroom. Another one of the key benefits of Bloc's program was the dedicated mentorship system. Each student is provided two thirty minute remote sessions per week with a dedicated Bloc mentor assigned at the beginning of the program. The mentorship program provided a way for students to get help and guidance directly from an experienced, professional web developer who would be vested in the success of the student throughout the program. This direct connection between the student and a professional web developer provided a strong basis for really absorbing the curriculum and beginning the transition into a career in web development. 
+
+After much searching and much deliberation I decided to enroll in Bloc's *Full Stack Web Developer* program in November of 2016. And so my journey began.

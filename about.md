@@ -2,11 +2,15 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
+feature-img: "img/denver_colorado.jpg"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hello!
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+I'm David,
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+I'm a multi-disciplined, fast learning web developer with a passion for technology. I come from a background in Linguistics and have since applied my knowledge of language structure and syntax to the art of web development.
+
+I have been teaching myself to code in HTML, CSS, and JavaScript for over a year now and decied several months ago it was time to greatly accellerate my education. My goal? To obtain a job in Web Development.
+
+I'm currently enrolled in a Full Stack Web Developer coding bootcamp with <a href="http://bloc.io">Bloc</a> and I'm really enjoying it so far. This site was built to showcase my projects as I build more and more of them as well as provide a platform for me to blog about my journey through web development. Thanks for stopping by! Please feel free to <a href="/contact/">contact</a> me if you would like to get in touch.

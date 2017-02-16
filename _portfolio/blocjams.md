@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BlocJams
-feature-img: "img/work_assets/blocJams/blocJamsFeatureImage.png"
+feature-img: "img/work_assets/blocJams/blocJamsFeatureImage2.png"
 thumbnail-path: "img/work_assets/blocJams/blocJamsThumbnail.png"
 short-description: BlocJams is a lightweight music player app
 

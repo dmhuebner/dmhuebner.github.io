@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dmhuebner.github.io" # the base hostname & protocol for your site
+url: "http://davidmhuebner.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -13,7 +13,7 @@ theme_settings:
   # Header and footer text
   header_text: >
      <h1>Web Developer <br>Problem Solver</h1>
-  header_text_feature_image: 
+  header_text_feature_image: img/city-view3.jpg
   footer_text: >
    Get in touch with me  -  <a href="/contact/">here!</a>
 

@@ -184,3 +184,49 @@ CUSTOM - Header / Nav
     transform: scale(1.18);
     z-index: 10;
 }
+
+/*==================
+MEDIA QUERIES
+===================*/
+
+/* Small devices (tablets, 768px) */
+@media (max-width: 768px) {
+    .column {
+//        float: left;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .column.full {
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .column.two-thirds {
+        width: 66.7%;
+    }
+    .column.half {
+        width: 50%;
+    }
+    .column.third {
+        width: 33.3%;
+    }
+    .column.fourth {
+        width: 25%;
+    }
+    .column.flow-opposite {
+        float: right;
+    }
+}
+
+/* Medium devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+    
+}
+
+

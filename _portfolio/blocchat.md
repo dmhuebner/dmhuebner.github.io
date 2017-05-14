@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bloc Chat
-feature-img: "img/work_assets/bloc_chat/bloc_chat_header8.png"
+feature-img: "img/work_assets/bloc_chat/bloc_chat_header_blur.png"
 thumbnail-path: "img/work_assets/bloc_chat/bloc_chat_thumbnail.png"
 short-description: Bloc Chat - instant messaging app
 

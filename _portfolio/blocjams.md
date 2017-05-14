@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Bloc Jams
-feature-img: "img/work_assets/blocJams/blocJamsFeatureImage2.png"
+feature-img: "img/work_assets/blocJams/blocJamsFeatureImage7.png"
 thumbnail-path: "img/work_assets/blocJams/blocJamsThumbnail.png"
-short-description: BlocJams is a lightweight music player app
+short-description: BlocJams - music player app
 
 
 ---
@@ -36,16 +36,16 @@ The Collection page was designed to display a user's album collection. The Colle
 
 ##### **Album Page:**
 
-The Album page was designed to display a particular album's title, artist, record label, and song list. The page utilizs the *Buzz JavaScript HTML5 Audio Library* in conjuncton with custom JavaScript code. The song player functionality allows a user to play any of the songs from the current album as well as play/pause, play the next or previous song, toggle the current position in the song and adjust the global volume.
+The Album page was designed to display a particular album's title, artist, record label, and song list. The page utilizes the *Buzz JavaScript HTML5 Audio Library* in conjunction with custom JavaScript code. The song player functionality allows a user to play any of the songs from the current album as well as play/pause, play the next or previous song, toggle the current position in the song and adjust the global volume.
 
 {:.center}
 ![]({{ site.baseurl }}/img/work_assets/blocJams/blocJamsAlbumView.png)
 
 #### **SOLUTION**
 
-The initial approach for this project was to code all of the music player functionality in pure, vanila JavaScript. Once all of the features and application logic were completed, I refactored the code to implement the jQuery library wherever applicable. Once all of the necessary features were finished and fully functional, I refactored the application again to implement the Angular.js JavaScript framework. As a result, the app was resructured from a static website into a Single Page Application (SPA). I used the <a href="https://ui-router.github.io/ng1/" target="_blank">UI Router</a> Angular.js plugin to take advantage of the useful "sref" attribute directive as well as a few other useful features.
+The initial approach for this project was to code all of the music player functionality in pure, vanilla JavaScript. Once all of the features and application logic were completed, I refactored the code to implement the jQuery library wherever applicable. Once all of the necessary features were finished and fully functional, I refactored the application again to implement the Angular.js JavaScript framework. As a result, the app was restructured from a static website into a Single Page Application (SPA). I used the <a href="https://ui-router.github.io/ng1/" target="_blank">UI Router</a> Angular.js plugin to take advantage of the useful "sref" attribute directive as well as a few other useful features.
 
-The goal was to practice utilizing several different strategies for creating the necessary functionality for the application. I started with the most straight forward stratey, to build the features with pure JavaScript. Then, I refactored the application using the jQuery library to reduce the amount of code needed and to practice refactoring vanilla JavaScript into the jQuery equivolent wherever possible. I then refactored and restructured the app to use the Angular.js framework.
+The goal was to practice utilizing several different strategies for creating the necessary functionality for the application. I started with the most straight forward strategy, to build the features with pure JavaScript. Then, I refactored the application using the jQuery library to reduce the amount of code needed and to practice refactoring vanilla JavaScript into the jQuery equivalent wherever possible. I then refactored and restructured the app to use the Angular.js framework.
 
 #### **TECHNOLOGIES USED**
 
@@ -53,12 +53,17 @@ HTML5, CSS3, JavaScript, jQuery, Angular.js, Grunt, Git
 
 #### **CONCLUSION**
 
-While the process of initally coding everything in pure, vanilla Javascript and then refactoring it into the jQuery equivolent was certainly more time consuiming than using jQuery to begin with, it was highly beneficial and educational. It empowered me as a developer to feel confident in my JavaScript skills while not feeling like I need to lean on the jQuery library.
+While the process of initially coding everything in pure, vanilla Javascript and then refactoring it into the jQuery equivalent was certainly more time consuming than using jQuery to begin with, it was highly beneficial and educational. It empowered me as a developer to feel confident in my JavaScript skills while not feeling like I need to lean on the jQuery library.
 
 The next steps for this project may be to implement a User Login portal so that users are able to sign up and login to use the application. In order to prepare this app for real use, the next step is to write the necessary server side code to enable a user to actually store their own album content in the application's server as well as create and store user login credentials.
 
 #### View the Project:
 
-**<a href="http://blocjamsapp.netlify.com/" target="_blank">BlocJams</a>**
+**<a href="http://blocjamsapp.netlify.com/" target="_blank">Bloc Jams</a>**
 
-**<a href="http://blocjams-angular.netlify.com/" target="_blank">BlocJams - Refactored with Angular.js</a>**
+**<a href="http://blocjams-angular.netlify.com/" target="_blank">Bloc Jams - Refactored with Angular.js</a>**
+
+##### GitHub Repo
+<a href="https://github.com/dmhuebner/bloc-jams" target="_blank">bloc-jams repo</a>
+
+<a href="https://github.com/dmhuebner/bloc-jams-angular" target="_blank">bloc-jams-angular repo</a>

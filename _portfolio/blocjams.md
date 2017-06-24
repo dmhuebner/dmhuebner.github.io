@@ -3,7 +3,7 @@ layout: post
 title: Bloc Jams
 feature-img: "img/work_assets/blocJams/blocJamsFeatureImage2.png"
 thumbnail-path: "img/work_assets/blocJams/blocJamsThumbnail.png"
-short-description: BlocJams - music player app
+short-description: BlocJams - Simple music player app    
 
 
 ---

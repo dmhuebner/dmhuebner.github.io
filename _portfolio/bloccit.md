@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Bloc Chat
-feature-img: "img/work_assets/bloc_chat/bloc_chat_thumbnail2.png"
-thumbnail-path: "img/work_assets/bloc_chat/bloc_chat_thumbnail2.png"
-short-description: Bloc Chat - Instant messaging app
+title: Bloccit
+feature-img: "img/work_assets/bloccit/bloccit-header3.png/"
+thumbnail-path: "img/work_assets/bloccit/bloccit-thumbnail.png"
+short-description: Bloccit - Post, share, comment and vote!
 
 
 ---
-**<a href="https://blocchat.netlify.com/" target="_blank" style="font-size: 2rem;">Bloc Chat</a>**
+**<a href="https://blocchat.netlify.com/" target="_blank" style="font-size: 2rem;">Bloccit</a>**
 
 #### **SUMMARY**
 

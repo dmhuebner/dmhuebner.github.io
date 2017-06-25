@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bloccit
-feature-img: "img/work_assets/bloccit/bloccit-header3.png/"
+feature-img: "img/work_assets/bloccit/bloccit-header5.png/"
 thumbnail-path: "img/work_assets/bloccit/bloccit-thumbnail.png"
 short-description: Bloccit - Post, share, comment and vote!
 
@@ -11,36 +11,38 @@ short-description: Bloccit - Post, share, comment and vote!
 
 #### **SUMMARY**
 
-Bloc Chat is a simple instant messaging application built with *Angular.js* and *Firebase*. It uses the Firebase *AngularFire* module to provide a real-time backend with three-way data binding and includes user signup and authentication.
+Bloccit is a Reddit-like application designed to let users share and explore posts and links from across the internet. Users can comment on public posts, use **Markdown** to style their own posts and up-vote or down-vote any posts they come across. Bloccit was built with *Ruby on Rails*.
 
 {:.center}
-![]({{ site.baseurl }}/img/work_assets/bloc_chat/bloc_chat_thumbnail2.png)
+![]({{ site.baseurl }}/img/work_assets/bloccit/bloccit-thumbnail.png)
 
 #### **EXPLANATION**
 
-The goal of this project was to create a simple instant messaging application with JavaScript, Angular.js, and Firebase that features three way data binding and real-time application updates without refreshing the page. It was created according to user stories provided in the <a href="http://bloc.io" target="_blank">Bloc</a> *Full Stack Developer* curriculum.
+The goal of this project was to build an application modeled after <a href="http://reddit.com" target="_blank">Reddit</a> to practice building CRUD applications with *Ruby on Rails*. It was created according to user stories provided in the <a href="http://bloc.io" target="_blank">Bloc</a> *Full Stack Developer* curriculum.
 
-This is a simple but effective instant messaging application that can be expanded on and customized to create more robust chat applications. This project was created to practice and demonstrate my *HTML*, *CSS*, *JavaScript*, and *Angular.js* experience as well as to gain more experience implementing a real-time backend with *Firebase*. For this project, I used the Firebase *AngularFire* module to create three-way data binding between the HTML, JavaScript and Firebase database. This allows the application to show new instant message updates in real time without requiring the page to be refreshed. Bloc Chat has a simple, mobile responsive design and utilizes *UI Bootstrap*'s Modal service to require users to signup for a new account or login with an existing email/password pair before proceeding to select a chat room.
+Bloccit features custom user authentication and authorization using the *bcrypt* gem and uses Rails' ActiveRecord::Enum class for different user types (admin, moderator, standard, etc.) Guest users can read through posts in public topics and view user comments. User's can create a free account to create their own posts, comment on other users' posts and up or down vote posts they find interesting.
+
+Bloccit has a simple, modern, mobile responsive design optimized for users on any size devise.
 
 #### **PAGES**
 
-##### **Login/SignUp Modals:**
+##### **Sign Up View:**
 
-Posting instant messages in any room requires a user to be logged in. Users who are not already logged in to Bloc Chat are initially presented with the Login Modal. The Login Modal allows a user to enter an email and password pair to login or they can click "Sign Up" to open the SignUp modal. A cookie is placed on a user's browser upon logging in to the website to keep track of the user's session.
-
-{:.center}
-![]({{ site.baseurl }}/img/work_assets/bloc_chat/bloc_chat_login_modal2.png)
-
-The Sign Up modal gathers a new user's username, email, and password and uses AngularFire's Authentication API to save them to the Firebase database. I created a user object in the Firebase database to associate the username with the correct Firebase user id. When a user logs in to Bloc Chat the username that is associated with their user id is populated in the top right and is displayed next to any messages they send. Both the Login and SignUp modal utilize *UI Bootstrap*'s Modal service ($uibModal).
+Users can either sign up to create a new free account to start posting and exploring Bloccit or sign in with their existing account.
 
 {:.center}
-![]({{ site.baseurl }}/img/work_assets/bloc_chat/bloc_chat_signup_modal2.png)
+![]({{ site.baseurl }}/img/work_assets/bloccit/bloccit-signup.png)
 
-Once a user is logged in, they can logout by clicking the "Logout" button in the top right. Logging out ends the user session and removes the login cookie from the user's browser.
+##### **Sign In View:**
 
-##### **New Room Modal:**
+{:.center}
+![]({{ site.baseurl }}/img/work_assets/bloccit/bloccit-signin.png)
 
-Once a user logs into the application they will be able to choose a Room from the selection on the left. Additionally, they would be able to create new rooms by clicking the (you guessed it) "New Room" button. The New Room button triggers the New Room modal which also utilizes *UI Bootstrap*'s Modal service ($uibModal).
+Once a user is logged in they will be directed to the Topics index view where they can choose a topic, they can logout by clicking the "Logout" button in the top right. Logging out destroys the user session.
+
+##### **Topics index:**
+
+Once a user logs into the application they will be able to create new posts choose a Room from the selection on the left. Additionally, they would be able to create new rooms by clicking the (you guessed it) "New Room" button. The New Room button triggers the New Room modal which also utilizes *UI Bootstrap*'s Modal service ($uibModal).
 
 {:.center}
 ![]({{ site.baseurl }}/img/work_assets/bloc_chat/bloc_chat_new_room_modal2.png)
@@ -65,7 +67,7 @@ I created custom Angular Services and corresponding Controllers to handle the cr
 
 #### **TECHNOLOGIES USED**
 
-HTML5, CSS3, JavaScript, jQuery, Angular.js, Firebase, AngularFire, UI Bootstrap, Grunt, Git
+HTML5, CSS3, JavaScript, Ruby on Rails, Git
 
 #### **CONCLUSION**
 

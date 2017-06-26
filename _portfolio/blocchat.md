@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bloc Chat
-feature-img: "img/work_assets/bloc_chat/bloc_chat_thumbnail2.png"
+feature-img: "img/work_assets/bloc_chat/bloc_chat_header2.png"
 thumbnail-path: "img/work_assets/bloc_chat/bloc_chat_thumbnail2.png"
 short-description: Bloc Chat - Instant messaging app
 
@@ -15,6 +15,10 @@ Bloc Chat is a simple instant messaging application built with *Angular.js* and 
 
 {:.center}
 ![]({{ site.baseurl }}/img/work_assets/bloc_chat/bloc_chat_thumbnail2.png)
+
+#### **TECHNOLOGIES USED**
+
+HTML5, CSS3, JavaScript, jQuery, Angular.js, Firebase, AngularFire, UI Bootstrap, Grunt, Git
 
 #### **EXPLANATION**
 
@@ -61,11 +65,6 @@ Because this is an instant messaging application, it was imperative to write the
 Bloc Chat was designed and structured as a Single Page Application (SPA). I used the <a href="https://ui-router.github.io/ng1/" target="_blank">UI Router</a> Angular.js plugin to take advantage of the useful "sref" attribute directive as well as a few other useful features that it provides. I implemented the *ngCookies* module to keep track of user sessions as well as *UI Bootstrap* for certain UI components such as the login, signup and new room modals.
 
 I created custom Angular Services and corresponding Controllers to handle the creation of new rooms and new messages. I implemented AngularFire's Authentication API in conjunction with a custom Account service to correlate AngularFire user IDs with usernames stored in the Firebase database. I used the AngularFire module to read and write records to the Firebase database asynchronously.
-
-
-#### **TECHNOLOGIES USED**
-
-HTML5, CSS3, JavaScript, jQuery, Angular.js, Firebase, AngularFire, UI Bootstrap, Grunt, Git
 
 #### **CONCLUSION**
 

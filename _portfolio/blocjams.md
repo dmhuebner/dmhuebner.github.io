@@ -11,6 +11,10 @@ short-description: BlocJams - Simple music player app
 
 Bloc Jams is a lightweight JavaScript music player application. It has a simple, streamlined interface that can serve as a backbone or starting point to more robust music applications.
 
+#### **TECHNOLOGIES USED**
+
+HTML5, CSS3, JavaScript, jQuery, Angular.js, Grunt, Git
+
 #### **EXPLANATION**
 
 The goal of this project was to create a lightweight music player application from start to finish according to specifications in the Bloc *Full Stack Developer* curriculum. This is a simple but effective music player application that can be expanded on and customized to create more robust music applications with more complex, custom features. This application was created to practice and demonstrate my HTML, CSS and Javascript proficiency. It features a mobile responsive design, a collection feature that would hold the user's music collection, as well as an album view that includes fully functional music player capabilities.

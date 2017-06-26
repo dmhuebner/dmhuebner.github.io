@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Last Month of Bloc Apprenticeship
-feature-img: "img/sample_feature_img.png"
+feature-img: "img/flat-snowy-sunrise2.jpg"
 ---
 I’m nearing the end of my *Full Stack Developer Apprenticeship* at **Bloc** and it has been quite an experience. I have been lucky enough to keep my job as a Technical Support Representative but drop down to 30 hours a week to give myself more time to focus on my Web Development apprenticeship.
 

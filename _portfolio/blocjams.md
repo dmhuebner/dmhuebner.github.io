@@ -3,13 +3,17 @@ layout: post
 title: Bloc Jams
 feature-img: "img/work_assets/blocJams/blocJamsFeatureImage2.png"
 thumbnail-path: "img/work_assets/blocJams/blocJamsThumbnail.png"
-short-description: BlocJams - music player app
+short-description: BlocJams - Simple music player app    
 
 
 ---
 #### **SUMMARY**
 
 Bloc Jams is a lightweight JavaScript music player application. It has a simple, streamlined interface that can serve as a backbone or starting point to more robust music applications.
+
+#### **TECHNOLOGIES USED**
+
+HTML5, CSS3, JavaScript, jQuery, Angular.js, Grunt, Git
 
 #### **EXPLANATION**
 

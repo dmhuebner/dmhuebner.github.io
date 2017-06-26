@@ -145,6 +145,11 @@ CUSTOM - Project Thumbnails
     z-index: 10;
 }
 
+.work p {
+	// min-height: 4rem;
+	// background-color: red;
+}
+
 /*=========================
 CUSTOM - Header / Nav
 ==========================*/
@@ -196,7 +201,7 @@ MEDIA QUERIES
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    
+
     .column.full {
         width: 90%;
         margin-right: 5%;
@@ -226,7 +231,5 @@ MEDIA QUERIES
 
 /* Large devices (large desktops, 1200px and down) */
 @media (max-width: 1200px) {
-    
+
 }
-
-

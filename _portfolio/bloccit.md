@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bloccit
-feature-img: "img/work_assets/bloccit/bloccit-header8.png/"
+feature-img: "img/work_assets/bloccit/bloccit-header8.png"
 thumbnail-path: "img/work_assets/bloccit/bloccit-thumbnail.png"
 short-description: Bloccit - Post, share, comment and vote!
 

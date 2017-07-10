@@ -24,7 +24,9 @@ HTML5, CSS3, JavaScript, jQuery, Angular.js, Firebase, AngularFire, UI Bootstrap
 
 The goal of this project was to create a simple instant messaging application with JavaScript, Angular.js, and Firebase that features three way data binding and real-time application updates without refreshing the page. It was created according to user stories provided in the <a href="http://bloc.io" target="_blank">Bloc</a> *Full Stack Developer* curriculum.
 
-This is a simple but effective instant messaging application that can be expanded on and customized to create more robust chat applications. This project was created to practice and demonstrate my *HTML*, *CSS*, *JavaScript*, and *Angular.js* experience as well as to gain more experience implementing a real-time backend with *Firebase*. For this project, I used the Firebase *AngularFire* module to create three-way data binding between the HTML, JavaScript and Firebase database. This allows the application to show new instant message updates in real time without requiring the page to be refreshed. Bloc Chat has a simple, mobile responsive design and utilizes *UI Bootstrap*'s Modal service in combination with *ngCookies* to require users to signup for a new account or login with an existing email/password pair before proceeding to select a chat room.
+This is a simple but effective instant messaging application that can be expanded on and customized to create more robust chat applications. This project was created to practice and demonstrate my, *JavaScript*, *Angular.js*, *HTML*, and *CSS* proficiency as well as to gain more experience implementing a real-time database with *Firebase*. I used the Firebase *AngularFire* module to create three-way data binding between the HTML, JavaScript and Firebase database. This allows the application to show new instant message updates in real time without requiring the page to be refreshed.
+
+Bloc Chat has a simple, mobile responsive design and utilizes *UI Bootstrap*'s Modal service in combination with *ngCookies* to require users to signup for a new account or login with an existing email/password pair before proceeding to select a chat room.
 
 #### **PAGES**
 
@@ -49,7 +51,10 @@ Once a user logs into the application they will be able to choose a Room from th
 {:.center}
 ![]({{ site.baseurl }}/img/work_assets/bloc_chat/bloc_chat_new_room_modal2.png)
 
-Currently, there are no authorization restrictions for users on Bloc Chat. Any user can create a new room and any other user can access it and write messages in that room. However, advanced user authorization and private room functionality can and will likely be added in the future.
+Users can create public rooms that anyone can chat in or private rooms that only users they add by email can access.
+
+{:.center}
+![]({{ site.baseurl }}/img/work_assets/bloc_chat/bloc_chat_add_user.png)
 
 ##### **Mobile Responsive Design:**
 
@@ -64,17 +69,21 @@ Because this is an instant messaging application, it was imperative to write the
 
 Bloc Chat was designed and structured as a Single Page Application (SPA). I used the <a href="https://ui-router.github.io/ng1/" target="_blank">UI Router</a> Angular.js plugin to take advantage of the useful "sref" attribute directive as well as a few other useful features that it provides. I implemented the *ngCookies* module to keep track of user sessions as well as *UI Bootstrap* for certain UI components such as the login, signup and new room modals.
 
-I created custom Angular Services and corresponding Controllers to handle the creation of new rooms and new messages. I implemented AngularFire's Authentication API in conjunction with a custom Account service to correlate AngularFire user IDs with usernames stored in the Firebase database. I used the AngularFire module to read and write records to the Firebase database asynchronously.
+I created custom Angular Services and corresponding Controllers to handle the creation of new rooms and new messages. I implemented AngularFire's Authentication API in conjunction with a custom Account service to correlate AngularFire user IDs with usernames and emails stored in the Firebase database. I used the AngularFire module to read and write records to the Firebase database asynchronously.
 
 #### **CONCLUSION**
 
-This project allowed me to flex some of my JavaScript and Angular.js skills while allowing me to learn and implement several new Angular modules such as *UI Bootstrap* and *ngCookies*. Using Firebase alongside *AngularFire* was a fitting solution to allow three-way data binding between the HTML, JavaScript, and Firebase database.
+This project allowed me to flex some of my JavaScript and Angular.js skills while allowing me to learn and implement several Angular modules such as *UI Bootstrap* and *ngCookies*. Using Firebase alongside *AngularFire* was a fitting solution to allow three-way data binding between the HTML, JavaScript, and Firebase database.
 
 ##### **NEXT STEPS**
 
-In the future, it would be nice to implement a scrolling feature that allows a user to scroll through the messages independently of the room selection on the left. There will almost always be more messages than rooms so it would be nice to not have to scroll all the way up to access the room selection. Additionally, if the application and user base were to grow, it would become increasingly important to establish logic that ensures only the most recent messages get loaded from the database upon selecting a room. This would decrease the application load time and help increase the scalability of the app.
+In the future, if the application and user base were to grow, it would become increasingly important to establish logic that ensures only the most recent messages get loaded from the database upon selecting a room. This would decrease the application load time and help increase the scalability of the app.
 
-If this application were to be used consistently by live users, there would need to be some additional logic that allows users to edit their user information such as username, email, password, etc., as well as allow them to recover their forgotten password, etc.
+If this application were to be used consistently by live users, there would need to be some additional logic that restricts users from making unlimited public rooms. This would help prevent the database from being overloaded by users creating too many public rooms.
+
+It would be helpful to implement a search functionality to help users find rooms if the user base and database were to grow.
+
+Additionally, it would be important to add functionality that allows users to edit their user information such as username, email, password, etc., as well as allow them to recover their forgotten password, etc.
 
 #### View the Project:
 

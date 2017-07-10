@@ -18,13 +18,13 @@ Bloccit is a Reddit-like application designed to let users share and explore pos
 
 #### **TECHNOLOGIES USED**
 
-HTML5, CSS3, JavaScript, Ruby on Rails, Git
+Ruby, Ruby on Rails, HTML5, CSS3, JavaScript, Git
 
 #### **EXPLANATION**
 
 The goal of this project was to build an application modeled after <a href="http://reddit.com" target="_blank">Reddit</a> to practice building CRUD applications with *Ruby on Rails*. It was created according to user stories provided in the <a href="http://bloc.io" target="_blank">Bloc</a> *Full Stack Developer* curriculum.
 
-Bloccit features custom user authentication and authorization using the *bcrypt* gem and uses Rails' ActiveRecord::Enum class for different user types (admin, moderator, standard, etc.) Guest users can read through posts in public topics and view user comments. User's can create a free account to create their own posts, comment on other users' posts and up or down vote posts they find interesting.
+Bloccit features custom user authentication and authorization using the *bcrypt* gem and uses Rails' ActiveRecord::Enum class for different user types (admin, moderator, standard, etc.) Guest users can read through posts in public topics and view user comments. Users can create a free account to create their own posts, comment on other users' posts and up or down vote posts they find interesting.
 
 Bloccit has a simple, modern, mobile responsive design optimized for users on any size devise.
 

@@ -60,6 +60,9 @@
     margin-left:0.5%;
     margin-bottom: 0;
     display: inline-block;
+		img {
+			box-shadow: 1px 2px 3px 2px #ddd;
+		}
     p a:hover {
       @extend %link-hover;
     }
@@ -132,6 +135,7 @@ CUSTOM - Project Thumbnails
     position: relative;
     opacity: 0.8;
     z-index: 0;
+		border: none;
     transition: all .15s ease-in-out;
     -moz-transition: all .15s ease-in-out;
     -webkit-transition: all .15s ease-in-out;
@@ -143,6 +147,8 @@ CUSTOM - Project Thumbnails
     -ms-transform: scale(1.35);
     transform: scale(1.35);
     z-index: 10;
+		box-shadow: none;
+		border: 2px solid #f4890c;
 }
 
 .work p {

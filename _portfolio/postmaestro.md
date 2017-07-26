@@ -3,7 +3,7 @@ layout: post
 title: Post Maestro
 feature-img: "img/work_assets/post_maestro/post_maestro_header8.png"
 thumbnail-path: "img/work_assets/post_maestro/post_maestro_thumbnail.png"
-short-description: Post Maestro - Post, share, comment and vote!
+short-description: Post Maestro - Post, share, comment, vote!
 
 
 ---

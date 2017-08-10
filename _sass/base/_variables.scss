@@ -22,9 +22,9 @@ $selection-color: #D4D4D4; // visible when highlighting text
 $header-link-color: #383838;
 
 // Feature image for articles
-$feature-image-text-color: rgba(255, 255, 255, 0.8);
+$feature-image-text-color: rgba(255, 255, 255, 1.0);
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #eee; //#1abcbc
-$header-desc-text-color: rgba(255, 255, 255, 0.9);
+$header-desc-background-color: #423B9A; //#423B9A; //#2214cd; //#4300ff; //#0653fe; //#1abcbc;
+$header-desc-text-color: rgba(255, 255, 255, 1.0);

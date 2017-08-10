@@ -14,6 +14,19 @@
   margin-bottom: 0;
 }
 
+.home {
+	.call-out {
+		h1 {
+			font-size: 5rem;
+		}
+		h1 span {
+			font-size: 4rem;
+		}
+	}
+}
+
+
+
 .call-out h1,
 .feature-image .title{
   text-shadow: //1px 1px 1px #444,
@@ -133,7 +146,7 @@ CUSTOM - Project Thumbnails
 
 .work-project-thumbnail img {
     position: relative;
-    opacity: 0.8;
+    opacity: 1;
     z-index: 0;
 		border: none;
     transition: all .15s ease-in-out;

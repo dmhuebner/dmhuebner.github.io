@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wikiport
-feature-img: "img/work_assets/wikiport/wikiport_header.png"
+feature-img: "img/work_assets/wikiport/wikiport_header3.png"
 thumbnail-path: "img/work_assets/wikiport/wikiport_thumbnail.png"
 short-description: Wikiport - Post wikis and add collaborators!
 

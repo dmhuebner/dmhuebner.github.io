@@ -12,8 +12,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Web Developer <br>Problem Solver</h1>
-  header_text_feature_image: img/city-view3.jpg
+     <h1>David Huebner<br><span>Web Developer</span></h1>
+  header_text_feature_image: img/free_polygon.jpg
   footer_text: >
    Get in touch with me  -  <a href="/contact/">here!</a>
 
@@ -22,12 +22,12 @@ theme_settings:
   email_address: davidmh.mail@gmail.com
   behance:
   bitbucket:
-  dribbble: 
+  dribbble:
   facebook: "dmhuebner"
   flickr:
   github: "dmhuebner"
   google_plus:
-  instagram: 
+  instagram:
   linkedin:  https://www.linkedin.com/in/david-huebner/
   pinterest:
   reddit:
@@ -35,7 +35,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter:
   wordpress:
   youtube:
 

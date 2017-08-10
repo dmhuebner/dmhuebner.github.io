@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NextTask
-feature-img: "img/work_assets/nexttask/nexttask_header4.png"
+feature-img: "img/work_assets/nexttask/nexttask_header2.png"
 thumbnail-path: "img/work_assets/nexttask/nexttask_thumbnail.png"
 short-description: NextTask - priority driven to-do lists
 
@@ -54,12 +54,6 @@ Users can log out by clicking the "Logout" button in the top right. Logging out 
 
 {:.center}
 ![]({{ site.baseurl }}/img/work_assets/post_maestro/post_maestro_topics.png)
-
-Once a user chooses a topic, they can read, comment, and mark posts as 'favorite' as well as make posts of their own.
-
-##### **ActionMailer - Favorite posts email notifications:**
-
-Once a user *favorites* a post, an ActionMailer is used to send them email notifications when other users comment on it.
 
 ##### **Mobile Responsive Design:**
 

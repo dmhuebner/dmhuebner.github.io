@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Experience At Bloc - So Far
-feature-img: "img/sample_feature_img.png"
+feature-img: "img/free_polygon.jpg"
 ---
 So far, my experience with the program has been very positive. Although, that is not to say that it has not been difficult. I went through the majority of the foundational HTML and CSS content relatively quickly. I was hungry to learn, and I had learned a considerable amount of HTML and CSS before I enrolled in the program. Bloc's *Full Stack Web Developer* program (at least at the time I was enrolled) is comprised of three main sections:
 

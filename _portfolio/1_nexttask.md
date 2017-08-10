@@ -3,7 +3,7 @@ layout: post
 title: NextTask
 feature-img: "img/work_assets/nexttask/nexttask_header2.png"
 thumbnail-path: "img/work_assets/nexttask/nexttask_thumbnail.png"
-short-description: NextTask - priority driven to-do lists
+short-description: NextTask - Priority driven to-do lists
 
 
 ---
@@ -11,7 +11,7 @@ short-description: NextTask - priority driven to-do lists
 
 #### **SUMMARY**
 
-NextTask is a simple to-do list (<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank">SPA</a>) app built with *Angular.js* and *Firebase*. It uses the Firebase *AngularFire* module to provide a real-time backend with three-way data binding. It is designed to keep your to-do lists clean and realistic by removing tasks that are not completed within seven days. The idea is that if a task is not important enough to be completed within seven days, it does not belong on your to-do list. Expired tasks are still available under the Expired list, but they will be cleared from your Current list.
+NextTask is a simple to-do list (<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank">SPA</a>) app built with *JavaScript*, *Angular.js* and *Firebase*. It uses the Firebase *AngularFire* module to provide a real-time backend with three-way data binding. It is designed to keep your to-do lists clean and realistic by removing tasks that are not completed within seven days. The idea is that if a task is not important enough to be completed within seven days, it does not belong on your to-do list. Expired tasks are still available under the Expired list, but they will be cleared from your Current list.
 
 {:.center}
 ![]({{ site.baseurl }}/img/work_assets/nexttask/nexttask_thumbnail.png)
@@ -22,7 +22,15 @@ JavaScript, jQuery, Angular.js, Firebase, HTML5, CSS3, AngularFire, UI Bootstrap
 
 #### **EXPLANATION**
 
-The goal of this project was to create a straight forward to-do list application with JavaScript, Angular.js, and Firebase that uses three way data binding to allow the application real-time application updates without refreshing the page. It was created according to user stories provided in my <a href="http://bloc.io" target="_blank">Bloc</a> *Full Stack Developer apprenticeship* curriculum.
+The goal of this project was to build a straightforward to-do list app that reduces the typical clutter that can build up in your to-do lists by automatically expiring tasks older than seven days. This keeps your to-do lists clean and realistic while still providing access to expired tasks in a separate tab.
+
+{:.center}
+![]({{ site.baseurl }}/img/work_assets/nexttask/nexttask_expired_tasks.png)
+
+Once a user marks a task as completed, it can still be viewed under the Completed Tasks tab. Tasks can also be permanently removed from your Completed Tasks by hovering over them clicking "Remove".
+
+{:.center}
+![]({{ site.baseurl }}/img/work_assets/nexttask/nexttask_remove_tasks.png)
 
 NextTask has a clean, mobile responsive design and uses *<a href="https://angular-ui.github.io/bootstrap/" target="_blank">UI Bootstrap</a>*'s Modal service as well as *<a href="https://github.com/firebase/firebaseui-web" target="_blank">FirebaseUI</a>* for user authentication.
 
@@ -52,23 +60,15 @@ Once a user logs in they will be directed to the tasks index view where they can
 
 Users can log out by clicking the "Logout" button in the top right. Logging out destroys the user session.
 
-{:.center}
-![]({{ site.baseurl }}/img/work_assets/post_maestro/post_maestro_topics.png)
-
-##### **Mobile Responsive Design:**
-
-Post Maestro was created with a mobile-first, responsive design using *Bootstrap*.
-
-{:.center}
-![]({{ site.baseurl }}/img/work_assets/post_maestro/post_maestro_mobile_view.png)
-
 <!-- #### **SOLUTION** -->
 
 #### **CONCLUSION**
 
-This project allowed me to demonstrate foundation programming and web development skills using Ruby on Rails and RESTful MVC architecture.
+This project allowed me to practice and demonstrate my programming and web development skills using JavaScript, Angular.js and Firebase as well as solve a problem that I often run into with many other to-do applications.
 
 ##### **NEXT STEPS**
+
+The next steps for this project would be to implement a function that allows users to refresh an expired task and add it back to their Current Tasks list. Although I do love the simplicity of just having one list, it may be best to add the ability to make more than one list for users who may have that need.
 
 #### View the Project:
 

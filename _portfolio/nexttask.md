@@ -24,68 +24,61 @@ JavaScript, jQuery, Angular.js, Firebase, HTML5, CSS3, AngularFire, UI Bootstrap
 
 The goal of this project was to create a straight forward to-do list application with JavaScript, Angular.js, and Firebase that uses three way data binding to allow the application real-time application updates without refreshing the page. It was created according to user stories provided in my <a href="http://bloc.io" target="_blank">Bloc</a> *Full Stack Developer apprenticeship* curriculum.
 
-NextTask has a clean, mobile responsive design and uses *UI Bootstrap*'s Modal service as well as *firebase-ui* for user email authentication.
+NextTask has a clean, mobile responsive design and uses *<a href="https://angular-ui.github.io/bootstrap/" target="_blank">UI Bootstrap</a>*'s Modal service as well as *<a href="https://github.com/firebase/firebaseui-web" target="_blank">FirebaseUI</a>* for user authentication.
 
 #### **PAGES**
 
-##### **Login/SignUp Modals:**
-
-Posting instant messages in any room requires a user to be logged in. Users who are not already logged in to Open Chat are initially presented with the Login Modal. The Login Modal allows a user to enter an email and password pair to login or they can click "Sign Up" to open the SignUp modal. A cookie is placed on a user's browser upon logging in to the website to keep track of the user's session.
+##### **Homepage:**
 
 {:.center}
-![]({{ site.baseurl }}/img/work_assets/open_chat/open_chat_login_modal.png)
+![]({{ site.baseurl }}/img/work_assets/nexttask/nexttask_homepage2.png)
 
-The Sign Up modal gathers a new user's username, email, and password and uses AngularFire's Authentication API to save them to the Firebase database. I created a user object in the Firebase database to associate the username with the correct Firebase user id. When a user logs in to Open Chat the username that is associated with their user id is populated in the top right and is displayed next to any messages they send. Both the Login and SignUp modal utilize *UI Bootstrap*'s Modal service ($uibModal).
+##### **Sign In Modal:**
 
-{:.center}
-![]({{ site.baseurl }}/img/work_assets/open_chat/open_chat_signup_modal.png)
-
-Once a user is logged in, they can logout by clicking the "Logout" button in the top right. Logging out ends the user session and removes the login cookie from the user's browser.
-
-##### **New Room Modal:**
-
-Once a user logs into the application they will be able to choose a Room from the selection on the left. Additionally, they would be able to create new rooms by clicking the (you guessed it) "New Room" button. The New Room button triggers the New Room modal which also utilizes *UI Bootstrap*'s Modal service ($uibModal).
+Users can either click "Sign In" to create a new free account with their email or sign in to an existing account to start creating new tasks.
 
 {:.center}
-![]({{ site.baseurl }}/img/work_assets/open_chat/open_chat_new_room_modal.png)
-
-Users can create public rooms that anyone can chat in or private rooms that only users they add by email can access.
+![]({{ site.baseurl }}/img/work_assets/nexttask/nexttask_signin.png)
 
 {:.center}
-![]({{ site.baseurl }}/img/work_assets/open_chat/open_chat_add_user.png)
+![]({{ site.baseurl }}/img/work_assets/nexttask/nexttask_signin2.png)
+
+If there is no account associated with the user's email they will be prompted to create a new user account.
+
+{:.center}
+![]({{ site.baseurl }}/img/work_assets/nexttask/nexttask_signin3.png)
+
+Once a user logs in they will be directed to the tasks index view where they can create new tasks, mark tasks as complete and view any expired or completed tasks.
+
+Users can log out by clicking the "Logout" button in the top right. Logging out destroys the user session.
+
+{:.center}
+![]({{ site.baseurl }}/img/work_assets/post_maestro/post_maestro_topics.png)
+
+Once a user chooses a topic, they can read, comment, and mark posts as 'favorite' as well as make posts of their own.
+
+##### **ActionMailer - Favorite posts email notifications:**
+
+Once a user *favorites* a post, an ActionMailer is used to send them email notifications when other users comment on it.
 
 ##### **Mobile Responsive Design:**
 
-This application was created with a mobile-first, responsive design using *Bootstrap*.
+Post Maestro was created with a mobile-first, responsive design using *Bootstrap*.
 
 {:.center}
-![]({{ site.baseurl }}/img/work_assets/open_chat/open_chat_mobile_view.png)
+![]({{ site.baseurl }}/img/work_assets/post_maestro/post_maestro_mobile_view.png)
 
-#### **SOLUTION**
-
-Because this is an instant messaging application, it was imperative to write the app in a way that allowed asynchronous updates as users write new instant messages. Angular.js in combination with Firebase and AngularFire were an appropriate approach to achieving the three-way data binding functionality that any good instant messaging app should have.
-
-Open Chat was designed and structured as a Single Page Application (SPA). I used the <a href="https://ui-router.github.io/ng1/" target="_blank">UI Router</a> Angular.js plugin to take advantage of the useful "sref" attribute directive as well as a few other useful features that it provides. I implemented the *ngCookies* module to keep track of user sessions as well as *UI Bootstrap* for certain UI components such as the login, signup and new room modals.
-
-I created custom Angular Services and corresponding Controllers to handle the creation of new rooms and new messages. I implemented AngularFire's Authentication API in conjunction with a custom Account service to correlate AngularFire user IDs with usernames and emails stored in the Firebase database. I used the AngularFire module to read and write records to the Firebase database asynchronously.
+<!-- #### **SOLUTION** -->
 
 #### **CONCLUSION**
 
-This project allowed me to flex some of my JavaScript and Angular.js skills while allowing me to learn and implement several Angular modules such as *UI Bootstrap* and *ngCookies*. Using Firebase alongside *AngularFire* was a fitting solution to allow three-way data binding between the HTML, JavaScript, and Firebase database.
+This project allowed me to demonstrate foundation programming and web development skills using Ruby on Rails and RESTful MVC architecture.
 
 ##### **NEXT STEPS**
 
-In the future, if the application and user base were to grow, it would become increasingly important to establish logic that ensures only the most recent messages get loaded from the database upon selecting a room. This would decrease the application load time and help increase the scalability of the app.
-
-If this application were to be used consistently by live users, there would need to be some additional logic that restricts users from making unlimited public rooms. This would help prevent the database from being overloaded by users creating too many public rooms.
-
-It would be helpful to implement a search functionality to help users find rooms if the user base and database were to grow.
-
-Additionally, it would be important to add functionality that allows users to edit their user information such as username, email, password, etc., as well as allow them to recover their forgotten password, etc.
-
 #### View the Project:
 
-**<a href="https://openchat.netlify.com/" target="_blank">Open Chat</a>**
+**<a href="https://nexttask.herokuapp.com/" target="_blank">NextTask</a>**
 
 ##### GitHub Repo
-<a href="https://github.com/dmhuebner/open-chat" target="_blank">open-chat repo</a>
+<a href="https://github.com/dmhuebner/nexttask" target="_blank">NextTask repo</a>

@@ -12,7 +12,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>David Huebner<br><span>Web Developer</span></h1>
+     <h1>David Huebner<br><span>Web Application Developer</span></h1>
   header_text_feature_image: img/free_polygon.jpg
   footer_text: >
    Get in touch with me  -  <a href="/contact/">here!</a>
